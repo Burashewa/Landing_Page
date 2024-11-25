@@ -1,12 +1,10 @@
 body{
     padding: 0;
     margin: 0%;
-}
-.container{
     display: flex;
     flex-direction: column;
-
 }
+
 .logo{
     font-family: Roboto;
     font-size: 24px;
@@ -63,5 +61,72 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: baseline;
-    flex-wrap: wrap;
+}
+.headerText{
+    font-size: 36px;
+    font-weight: 900;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+
+}
+.subtext{
+    display: flex;
+    justify-content: center
+}
+.box{
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #3882f2;
+    width: 150px;
+    height: 150px;
+}
+.icon{
+   max-width: 150px;
+   margin: 16px;
+   text-align: center;
+}
+.quote{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 100px;
+
+}
+.qouteText{
+    font-family: "light italic", sans-serif;
+    font-size: 36px;
+    color:#1f2937 ;
+    max-width: 700px;
+}
+.quoteAu{
+    font-size: 36px;
+    color:#1f2937;
+    display: flex;
+    align-items: end;
+}
+
+.callToAction{
+    background-color: #3882f6;
+    font-size: 24px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: last baseline;
+    color: #e5e7eb;
+    padding: 50px;
+    margin: 50px 150px;
+    flex-shrink: 0%;
+}
+.callToAction button{
+    border-style: solid;
+    border-color: #e5e7eb;
+}
+.footer{
+    background-color: #1f2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
 }
